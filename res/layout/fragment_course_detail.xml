@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/tuijian01" >
+
+        <ImageView
+            android:id="@+id/course_teacher"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="24dp"
+            android:text="讲师:王安石"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/course_teacher"
+            android:layout_alignLeft="@+id/textView2"
+            android:text="《史记》"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+		
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="5.太史公自序（5）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_eye" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="6.太史公自序（6）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_eye" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="1.太史公自序（一）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/green"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_eye" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/lightblue"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="2.太史公自序（2）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/lightblue"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_arrow_down" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:background="@color/lightblue"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="3.太史公自序（3）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+              android:background="@color/lightblue"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_arrow_down" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+              android:background="@color/lightblue"
+             android:gravity="end"
+             android:layout_marginBottom="5dp"
+             android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_height="wrap_content"
+	            android:textSize="14dp"
+	            android:layout_width="wrap_content"
+	            android:text="4.太史公自序（4）" 
+	        	android:gravity="center_vertical"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="8dp"
+	           	android:layout_gravity="left|center_vertical"
+	            />
+ 			<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+              android:background="@color/lightblue"
+             android:gravity="end"
+             android:orientation="horizontal" >
+		       	 <ImageView
+		            android:id="@+id/imageView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="right"
+		            android:src="@drawable/appbar_arrow_down" />
+		     </LinearLayout>
+
+	      </LinearLayout>
+       
+    </LinearLayout>
+
+</LinearLayout>

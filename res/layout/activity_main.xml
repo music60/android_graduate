@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/main_header" />
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.4"
+            android:layout_height="0dp"
+            android:background="@color/green" >
+
+           <android.support.v4.view.ViewPager
+	        android:id="@+id/guidePages"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+
+         
+
+          </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/main_intro"
+             android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@color/cyan" >
+            <TextView 
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:text="《史记》"
+          	    	android:textColor="@color/white"
+          	    	android:textSize="20dp"
+          	    
+					/>
+            <TextView 
+                	android:id="@+id/main_introText"
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:layout_margin="10dp"
+          	    	android:text="《史记》不仅为中国之史学经典名著，同时还兼有经、史、子、集四部之特质，乃中国文化中最可宝贵之一大遗产。其纵述自轩辕迄汉武两千年事，原始察终，见盛 观衰，非仅一代良史，明为百王大法。太史公自诩此书「究天人之际，通古今之变..."
+          	    	android:textColor="@color/white"
+          	    	android:textSize="12dp"
+          	    
+					/>
+        </LinearLayout>
+       
+        <LinearLayout
+             android:layout_width="match_parent"
+           android:layout_weight="0.15"
+           android:layout_height="0dp"
+            android:layout_margin="5dp"
+             android:layout_gravity="center_vertical"
+            android:background="@color/darkcarmine" >
+          	<ImageView 
+          	    android:layout_height="wrap_content"
+          	    android:layout_width="wrap_content"
+          	     android:layout_gravity="center_vertical"
+                 android:src="@drawable/appbar_book"  
+          	    />
+
+          	<LinearLayout
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="match_parent"
+          	    android:orientation="vertical" 
+          	   
+          	    android:gravity="center_vertical"
+          	    >
+             <TextView 
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:text="网络公开课"
+          	    	android:textColor="@color/white"
+          	    	android:textSize="18dp"
+          	    	
+          	    	
+					/>
+              <TextView 
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:text="上次:第三讲，有机化学有机分子的表达结构"
+          	    	android:textColor="@color/white"
+          	    	android:textSize="12dp"
+          	    
+					/>
+          	</LinearLayout>
+          	
+         </LinearLayout>
+
+         <LinearLayout
+           android:id="@+id/mine_center"  
+           android:layout_width="match_parent"
+           android:layout_weight="0.15"
+           android:layout_height="0dp"
+            android:layout_margin="5dp"
+             android:layout_gravity="center_vertical"
+            android:background="@color/darkcarmine" >
+          	<ImageView 
+          	    android:layout_height="wrap_content"
+          	    android:layout_width="wrap_content"
+          	     android:layout_gravity="center_vertical"
+                 android:src="@drawable/user"  
+          	    />
+
+          	<LinearLayout
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="match_parent"
+          	    android:orientation="vertical" 
+          	   
+          	    android:gravity="center_vertical"
+          	    >
+             <TextView 
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:text="个人中心"
+          	    	android:textColor="@color/white"
+          	    	android:textSize="18dp"
+          	    	
+          	    	
+					/>
+              <TextView 
+ 					android:layout_height="wrap_content"
+          	    	android:layout_width="wrap_content"
+          	    	android:text="一共完成了12门课程学习，3个计划"
+          	    	android:textColor="@color/white"
+          	    	android:textSize="12dp"
+          	    
+					/>
+          	</LinearLayout>
+          	
+         </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
